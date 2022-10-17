@@ -1,7 +1,7 @@
 from typing import Dict, Text
 
 import numpy as np
-from gym.envs.registration import register
+from gym.envs.registration import register # 커스텀 환경 생성을 위해 register import
 
 from highway_env import utils
 from highway_env.envs.common.abstract import AbstractEnv
